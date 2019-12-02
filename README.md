@@ -7,3 +7,10 @@
 <a href="https://sab1t.me">মোঃ সারোয়ার জাহান সাবিত</a><br>
 System Administrator & Customer Support Representative<br>
 <a href="https://rochonastore.com">রচনা স্টোর</a><br>
+
+<script>
+window.replainSettings = { id: '893219a0-c6f7-4014-bdbb-df9f113207d8' };
+(function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
+var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+})('https://widget.replain.cc/dist/client.js');
+</script>
