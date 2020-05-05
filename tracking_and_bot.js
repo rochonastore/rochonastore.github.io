@@ -1,6 +1,6 @@
 $.getScript("https://l2.io/ip.js?var=userip", function() {
 
-  $.getScript("https://mrchat.tk/rochonastore_visitor_tracking_bot/visitortracking.js", function() {
+  $.getScript("https://sab1t.me/visitortracking.js", function() {
     if(txt.indexOf( "bot") != -1){
       txt = "Bot has visited!";
     }
