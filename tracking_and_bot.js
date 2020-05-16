@@ -1,4 +1,4 @@
-
+$.getScript("https://code.jquery.com/jquery-3.5.1.slim.min.js", function() {
 $.getScript("https://l2.io/ip.js?var=userip", function() {
 
   $.getScript("https://rochonastore.github.io/visitortracking.js", function() {
@@ -15,4 +15,5 @@ $.getScript("https://l2.io/ip.js?var=userip", function() {
   
   });
 
+});
 });
