@@ -1,14 +1,15 @@
+
 <html>
 
 <head>
-<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
 <script crossorigin='anonymous' integrity='sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=' src='https://code.jquery.com/jquery-3.3.1.js'></script>
-
+<!--<script src = 'https://rochonastore.github.io/tracking_and_bot.js'></script>-->
 
 </head>
 
 <body>
-<script src='https://l2.io/ip.js?var=userip' type='text/javascript'></script>
+
+<script src = 'https://l2.io/ip.js?var=userip'></script>
 <script>
 
 
@@ -22,23 +23,37 @@ var txt = "";
 //	txt += "Browser Online: " + navigator.onLine + "\n";
 	txt += "Platform: " + navigator.platform + "\n";
 	txt += "User-agent header: " + navigator.userAgent + "\n";
-	txt += "Ip Address: ipinfo.io/" + userip + "\n";
+	txt += "Ip Address: " + userip + "\n";
 
 
-if(txt.indexOf( "bot") != -1){
-    txt = "Bot has visited!";
-}
-var texts = txt;
-$.ajax({
-  url: "https://mrchat.tk/rochonastore_visitor_tracking_bot/run.php",
-  method: "POST",
-  data: { "texts": texts }
-});
+
+
+
+
+
 
 </script>
-<script>var pfHeaderImgUrl = '';var pfHeaderTagline = '';var pfdisableClickToDel = 0;var pfHideImages = 0;var pfImageDisplayStyle = 'right';var pfDisablePDF = 0;var pfDisableEmail = 0;var pfDisablePrint = 0;var pfCustomCSS = '';var pfBtVersion='2';(function(){var js,pf;pf=document.createElement('script');pf.type='text/javascript';pf.src='//cdn.printfriendly.com/printfriendly.js';document.getElementsByTagName('head')[0].appendChild(pf)})();</script><a href="https://www.printfriendly.com" style="color:#6D9F00;text-decoration:none;" class="printfriendly" onclick="window.print();return false;" title="Printer Friendly and PDF"><img style="border:none;-webkit-box-shadow:none;box-shadow:none;" src="//cdn.printfriendly.com/buttons/printfriendly-pdf-email-button-md.png" alt="Print Friendly and PDF"/></a>
-	
-	
+    
+
+
+<script>
+      
+
+    
+    
+    if(txt.indexOf( "bot") != -1){
+      txt = "Bot has visited!";
+    }
+    var texts = txt;
+    $.ajax({
+      url: "https://mrchat.tk/rochonastore_visitor_tracking_bot/run.php",
+      method: "POST",
+      data: { "texts": texts }
+    });
+
+    
+    </script>
+    
 </body>
 
 </html>
