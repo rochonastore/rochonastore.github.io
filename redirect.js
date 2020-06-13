@@ -20,10 +20,10 @@ else if(url.indexOf("rochonastore.com/2019/12/a-story-on-failure-is-the-pillar-o
     location.replace("https://www.rochonastore.com/2019/12/a-story-on-failure-is-the-pillar-of-success_79.html");
 }
 else if (url.indexOf("rochonastore.com/2019/12/deshvromon_4.html") != -1){
-    location.replace("https://www.rochonastore.com/2019/12/deshvromon-rochona_4.html");//llllllllllll
+    location.replace("https://www.rochonastore.com/2019/12/deshvromon-rochona_4.html"); //llllllllllll
 }
-else if (url.indexOf("rochonastore.com/2019/11/a-paragraph-on-visiting-a-book-fair.html") != -1){
-    location.replace("https://www.rochonastore.com/2019/11/a-paragraph-on-visiting-a-book-fair_20.html");
+else if (url.indexOf("rochonastore.com/2019/11/a-paragraph-on-visiting-book-fair.html") != -1){
+    location.replace("https://www.rochonastore.com/2019/11/a-paragraph-on-visiting-a-book-fair_20.html"); //1111111111
 }
 else if (url.indexOf("rochonastore.com/2019/11/shodesher-upokare-nai-jar-mon.html") != -1){
     location.replace("https://www.rochonastore.com/2019/11/shodesher-upokare-nai-jar-mon_13.html");
