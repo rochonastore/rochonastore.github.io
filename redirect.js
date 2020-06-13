@@ -1,11 +1,11 @@
 function myFunction(){
 url = window.location.href
 
-if(url.indexOf("www.rochonastore.com/%E0%A6%A8%E0%A7%88%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%AE%E0%A7%81%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A7%8B%E0%A6%A7-%E0%A6%93-%E0%A6%85%E0%A6%AC%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%9F/%E0%A6%85%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A7%9F") != -1){
-    location.replace("https://rochonastore.com/2018/12/oddhoboshay.html");
+if(url.indexOf("rochonastore.com/2018/12/oddhoboshay.html") != -1){
+    location.replace("https://www.rochonastore.com/2018/12/oddhoboshay_30.html");
 }
-else if(url.indexOf("www.rochonastore.com/%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%AE%E0%A6%AC%E0%A7%8B%E0%A6%A7%E0%A6%95/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AF%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7") != -1){
-    location.replace("https://rochonastore.com/2018/12/bangaladesher-muktijuddho.html");
+else if(url.indexOf("rochonastore.com/2018/12/bangaladesher-muktijuddho.html") != -1){
+    location.replace("https://www.rochonastore.com/2018/12/bangladesher-muktijuddho.html");
 }
 else if(url.indexOf("www.rochonastore.com/%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%AE%E0%A6%AC%E0%A7%8B%E0%A6%A7%E0%A6%95/%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AE") != -1){
     location.replace("https://rochonastore.com/2018/12/shodeshprem.html");
