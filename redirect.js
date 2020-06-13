@@ -1,5 +1,5 @@
 function myFunction(){
-url = window.location.href
+url = window.location.href;
 
 if(url.indexOf("rochonastore.com/2018/12/banglar-krishok.html") != -1){
     location.replace("https://www.rochonastore.com/2020/05/banglar-krishok_59.html");
