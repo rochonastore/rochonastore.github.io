@@ -19,7 +19,7 @@ else if(url.indexOf("rochonastore.com/2019/12/a-story-on-devotion-to-mother.html
 else if(url.indexOf("rochonastore.com/2019/12/a-story-on-failure-is-the-pillar-of-success.html") != -1){
     location.replace("https://www.rochonastore.com/2019/12/a-story-on-failure-is-the-pillar-of-success_79.html");
 }
-else if (url.indexOf("rochonastore.com/2019/12/deshvromon-rochona.html") != -1){
+else if (url.indexOf("rochonastore.com/2019/12/deshvromon_4.html") != -1){
     location.replace("https://www.rochonastore.com/2019/12/deshvromon-rochona_4.html");
 }
 else if (url.indexOf("rochonastore.com/2019/11/a-paragraph-on-visiting-a-book-fair.html") != -1){
