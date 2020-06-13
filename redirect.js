@@ -28,8 +28,8 @@ else if (url.indexOf("rochonastore.com/2019/11/a-paragraph-on-visiting-book-fair
 else if (url.indexOf("rochonastore.com/2019/11/shodesher-upokare-nai-jar-mon.html") != -1){
     location.replace("https://www.rochonastore.com/2019/11/shodesher-upokare-nai-jar-mon_13.html");
 }
-else if (url.indexOf("rochonastore.com/2019/11/a-paragraph-on-a-street-hawker.html") != -1){
-    location.replace("https://www.rochonastore.com/2019/11/a-paragraph-on-a-street-hawker_11.html");
+else if (url.indexOf("rochonastore.com/2019/11/a-paragraph-on-street-hawker.html") != -1){
+    location.replace("https://www.rochonastore.com/2019/11/a-paragraph-on-a-street-hawker_11.html"); //1111111111111
 }
 else if (url.indexOf("rochonastore.com/2019/11/a-paragraph-on-tree-plantation.html") != -1){
     location.replace("https://www.rochonastore.com/2019/11/a-paragraph-on-tree-plantation_78.html");
@@ -37,14 +37,14 @@ else if (url.indexOf("rochonastore.com/2019/11/a-paragraph-on-tree-plantation.ht
 else if (url.indexOf("rochonastore.com/2019/11/a-paragraph-on-water-pollution.html") != -1){
     location.replace("https://www.rochonastore.com/2019/11/a-paragraph-on-water-pollution_40.html");
 }
-else if (url.indexOf("rochonastore.com/2019/11/a-paragraph-on-national-flag.html") != -1){
-    location.replace("https://www.rochonastore.com/2019/11/a-paragraph-on-national-flag_75.html");
+else if (url.indexOf("rochonastore.com/2019/11/a-paragraph-on-our-national-flag.html") != -1){
+    location.replace("https://www.rochonastore.com/2019/11/a-paragraph-on-national-flag_75.html"); //1111111111111
 }
-else if (url.indexOf("rochonastore.com/2019/11/a-paragraph-on-drug-addiction.html") != -1){
-    location.replace("https://www.rochonastore.com/2019/11/a-paragraph-on-drug-addiction_10.html");
+else if (url.indexOf("rochonastore.com/2019/11/-paragraph-on-drug-addiction.html") != -1){
+    location.replace("https://www.rochonastore.com/2019/11/a-paragraph-on-drug-addiction_10.html"); //11111111111
 }
-else if (url.indexOf("rochonastore.com/2019/11/a-composition-on-a-village-fair.html") != -1){
-    location.replace("https://www.rochonastore.com/2019/11/a-composition-on-a-village-fair_10.html");
+else if (url.indexOf("rochonastore.com/2019/11/a-compostion-on-a-village-fair.html") != -1){
+    location.replace("https://www.rochonastore.com/2019/11/a-composition-on-a-village-fair_10.html"); //1111111111
 }
 else if (url.indexOf("rochonastore.com/2019/11/a-composition-on-value-of-time.html") != -1){
     location.replace("https://www.rochonastore.com/2019/11/a-composition-on-value-of-time_19.html");
