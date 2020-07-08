@@ -9,13 +9,24 @@ button.addEventListener('click', () => {
         var tempTOC = 0;
         
         headlength = document.getElementById("post-toc").getElementsByTagName("h4").length;
-        for (i = 0; i < headlength; i++) {
+        
+        /*for (i = 0; i < headlength; i++) {
             gethead = document.getElementById("post-toc").getElementsByTagName("h4")[i].textContent;
             document.getElementById("post-toc").getElementsByTagName("h4")[i].setAttribute("id", "point" + i);
             mbtTOC = document.getElementById("mbtTOCc");
             tempTOC = "<li><a href='#point" + i + "'>" + gethead + "</a></li>";
             mbtTOC += tempTOC;
+        }*/
+        
+        for (i = 0; i < headlength; i++) {
+            gethead = document.getElementById("post-toc").getElementsByTagName("h4")[i].textContent;
+            document.getElementById("post-toc").getElementsByTagName("h4")[i].setAttribute("id", "point" + i);
+            mbtTOC = document.getElementById("mbtTOCc");
+            var li = document.createElement('li');
+            li.textContent = gethead;
+            document.mbtTOC.appendChild(li);
         }
+        
     }
 
     /*function mbtToggle() {
