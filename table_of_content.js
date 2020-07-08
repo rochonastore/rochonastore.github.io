@@ -1,5 +1,8 @@
 function mbtTOC() {
-    var mbtTOC = i = headlength = gethead = 0;
+    var mbtTOC = 0;
+    var i = 0;
+    var headlength = 0;
+    var gethead = 0;
     headlength = document.getElementById("post-toc").getElementsByTagName("h4").length;
     for (i = 0; i < headlength; i++) {
         gethead = document.getElementById("post-toc").getElementsByTagName("h4")[i].textContent;
