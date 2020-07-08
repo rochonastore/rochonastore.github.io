@@ -8,13 +8,13 @@ function mbtTOC() {
         gethead = document.getElementById("post-toc").getElementsByTagName("h4")[i].textContent;
         document.getElementById("post-toc").getElementsByTagName("h4")[i].setAttribute("id", "point" + i);
         mbtTOC = "<li><a href='#point" + i + "'>" + gethead + "</a></li>";
-        document.getElementById("mbtTOC") += mbtTOC;
+        document.getElementById("mbtTOC") = document.getElementById("mbtTOC") + mbtTOC;
     }
 }
 
 function mbtToggle() {
     var mbt = document.getElementById('mbtTOC');
-    if (mbt.style.display == 'none') {
+    if (mbt.style.display === 'none') {
         mbt.style.display = 'block';
     } else {
         mbt.style.display = 'none';
