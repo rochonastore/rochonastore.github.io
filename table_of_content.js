@@ -14,7 +14,7 @@ function mbtTOC() {
 
 function mbtToggle() {
     var mbt = document.getElementById('mbtTOC');
-    if (mbt.style.display === 'none') {
+    if (mbt.style.display == 'none') {
         mbt.style.display = 'block';
     } else {
         mbt.style.display = 'none';
