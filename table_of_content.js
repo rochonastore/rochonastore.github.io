@@ -25,4 +25,4 @@ button.addEventListener('click', () => {
     }
 
     mbtTOC();
-}
+});
