@@ -15,14 +15,14 @@ button.addEventListener('click', () => {
         }
     }
 
-    function mbtToggle() {
+    /*function mbtToggle() {
         var mbt = document.getElementById('mbtTOC');
         if (mbt.style.display === 'none') {
             mbt.style.display = 'block';
         } else {
             mbt.style.display = 'none';
         }
-    }
+    }*/
 
     mbtTOC();
 });
