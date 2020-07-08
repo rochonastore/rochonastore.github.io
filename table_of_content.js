@@ -21,10 +21,10 @@ button.addEventListener('click', () => {
         for (i = 0; i < headlength; i++) {
             gethead = document.getElementById("post-toc").getElementsByTagName("h4")[i].textContent;
             document.getElementById("post-toc").getElementsByTagName("h4")[i].setAttribute("id", "point" + i);
-            mbtTOC = document.getElementById("mbtTOCc");
-            var li = document.createElement('li');
+            //mbtTOC = document.getElementById("mbtTOCc");
+            var li = document.createElement('h6');
             li.textContent = gethead;
-            document.mbtTOC.appendChild(li);
+            document.body.appendChild(li);
         }
         
     }
