@@ -22,9 +22,9 @@ button.addEventListener('click', () => {
             gethead = document.getElementById("post-toc").getElementsByTagName("h4")[i].textContent;
             document.getElementById("post-toc").getElementsByTagName("h4")[i].setAttribute("id", "point" + i);
             //mbtTOC = document.getElementById("mbtTOCc");
-            var li = document.createElement('h6');
-            li.textContent = gethead;
-            document.body.appendChild(li);
+            var h6 = document.createElement('h6');
+            li.textContent = "Point";
+            document.body.appendChild(h6);
         }
         
     }
