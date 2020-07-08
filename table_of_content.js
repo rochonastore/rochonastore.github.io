@@ -1,4 +1,4 @@
-const button = document.getElementById('hello');
+const button = document.getElementById('toc_butt');
 button.addEventListener('click', () => {
     
     function mbtTOC() {
