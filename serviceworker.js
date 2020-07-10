@@ -1,1 +1,1 @@
-importScripts('./sw.js');
+importScripts('https://rochonastore.github.io/sw.js');
