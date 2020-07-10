@@ -15,9 +15,9 @@
    ],
    "theme_color":"#cc324b",
    "background_color":"#cc324b",
-   "display":"standalone"
+   "display":"standalone",
    "scope": "/",
-   "start_url": "https://www.rochonastore.com/",
+   "start_url": "https://testblogmsjs.blogspot.com/",
    "description": "অনলাইনে বাংলা রচনার এক অনন্য সমাহার",
    "orientation": "any",
 }
