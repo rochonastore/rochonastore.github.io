@@ -1,6 +1,6 @@
 var cacheName = 'rochonastore-pwa';
 var filesToCache = [
-  'https://www.rochonastore.com/index.html'
+  'https://testblogmsjs.blogspot.com/index.html'
 ];
 
 /* Start the service worker and cache all of the app's content */
