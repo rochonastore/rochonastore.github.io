@@ -45,7 +45,12 @@ function mbtTOC() {
         
         document.getElementById("mbtTOCc").appendChild(li);
         document.getElementById("a-s_in_list"+i).appendChild(a);
-        
+        if(headlength == 0){
+            document.getElementById("loading").textContent = 'পয়েন্ট পাওয়া যায় নি!';
+        }
+        else{
+            document.getElementById("loading").style.display = 'none';
+        }
     }
     
 }
@@ -69,5 +74,5 @@ function mbtTOC() {
     document.body.appendChild(h1);*/
     
     mbtTOC();
-    document.getElementById("loading").style.display = 'none';
+    
 //});
