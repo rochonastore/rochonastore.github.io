@@ -49,8 +49,8 @@ function mbtTOC() {
     
 }
 
-const button = document.getElementById('toc_butt');
-button.addEventListener('click', () => {
+//const button = document.getElementById('toc_butt');
+//button.addEventListener('click', () => {
     
 
     /*function mbtToggle() {
@@ -68,4 +68,4 @@ button.addEventListener('click', () => {
     document.body.appendChild(h1);*/
     
     mbtTOC();
-});
+//});
