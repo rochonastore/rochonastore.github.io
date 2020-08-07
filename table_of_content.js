@@ -45,6 +45,8 @@ function mbtTOC() {
         
         document.getElementById("mbtTOCc").appendChild(li);
         document.getElementById("a-s_in_list"+i).appendChild(a);
+        
+        document.getElementById("loading").style.display = 'none';
     }
     
 }
