@@ -45,8 +45,8 @@ function mbtTOC() {
         
         document.getElementById("mbtTOCc").appendChild(li);
         document.getElementById("a-s_in_list"+i).appendChild(a);
-        if(headlength == 0){
-            document.getElementById("loading").textContent = 'পয়েন্ট পাওয়া যায় নি!';
+        if(i == 0){
+            document.getElementById("loading").textContent = "পয়েন্ট পাওয়া যায় নি!";
         }
         else{
             document.getElementById("loading").style.display = 'none';
