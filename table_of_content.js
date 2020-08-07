@@ -45,15 +45,15 @@ function mbtTOC() {
         
         document.getElementById("mbtTOCc").appendChild(li);
         document.getElementById("a-s_in_list"+i).appendChild(a);
-        //if(i == 0){
-            
-        //}
-        //else{
-            //document.getElementById("loading").style.display = 'none';
-        //}
+        if(i == 0){
+            document.getElementById("toc").style.display = 'none';
+        }
+        else{
+            document.getElementById("loading").style.display = 'none';
+        }
     }
     
-    document.getElementById("loading").textContent = headlength.toString() + " " + i.toString();
+    
     
 }
 
