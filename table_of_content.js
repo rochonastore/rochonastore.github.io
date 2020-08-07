@@ -53,6 +53,8 @@ function mbtTOC() {
         //}
     }
     
+    document.getElementById("loading").textContent = headlength.toString() + " " + i.toString();
+    
 }
 
 //const button = document.getElementById('toc_butt');
@@ -74,7 +76,5 @@ function mbtTOC() {
     document.body.appendChild(h1);*/
     
     mbtTOC();
-    document.getElementById("loading").textContent = headlength.toString() + " " + i.toString();
-
-    
+      
 //});
