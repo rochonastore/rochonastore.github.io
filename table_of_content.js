@@ -45,12 +45,12 @@ function mbtTOC() {
         
         document.getElementById("mbtTOCc").appendChild(li);
         document.getElementById("a-s_in_list"+i).appendChild(a);
-        if(i == 0){
-            document.getElementById("toc").style.display = 'none';
-        }
-        else{
-            document.getElementById("loading").style.display = 'none';
-        }
+        //if(i == 0){
+            document.getElementById("loading").textContent = h.toString() + " " + i.toString();
+        //}
+        //else{
+            //document.getElementById("loading").style.display = 'none';
+        //}
     }
     
 }
@@ -74,5 +74,6 @@ function mbtTOC() {
     document.body.appendChild(h1);*/
     
     mbtTOC();
+
     
 //});
