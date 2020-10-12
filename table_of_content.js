@@ -6,12 +6,12 @@ function mbtTOC() {
     var tempTOC = 0;
     
     
-    if(document.getElementById("mbtTOCc").style.display == 'block'){
+    /*if(document.getElementById("mbtTOCc").style.display == 'block'){
         document.getElementById("mbtTOCc").style.display = 'none';
     }
     else {
         document.getElementById("mbtTOCc").style.display = 'block';
-    }
+    }*/
     
     
     headlength = document.getElementById("post-toc").getElementsByTagName("h4").length;
