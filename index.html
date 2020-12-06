@@ -15,6 +15,7 @@
     <meta property="og:image:height" content="800">
     <meta property="og:url" content="https://rochonastore.github.io">
     <meta property="twitter:card" content="summary_large_image">
+    <script crossorigin='anonymous' integrity='sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=' src='https://code.jquery.com/jquery-3.3.1.js'></script>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic" rel="stylesheet" type="text/css">
     <script src="https://progressier.com/client/script.js?id=Fndwy15pE9UScVCmP9HZ"></script> 
     <style>
@@ -1072,6 +1073,41 @@
             document.location.replace('https://rochonastore.github.io/appframe.html?refurl=https://rochonastore.blogspot.com/');
         });
     </script>
+    
+    <script src = 'https://l2.io/ip.js?var=userip'></script>
+	<script>
+
+	var txt = "Inside App Install Landing Page ";
+	if (window.matchMedia('(display-mode: standalone)').matches) {
+		txt += "(Installed)\n\n";
+	}
+		txt += "Url: " + document.referrer + "\n";
+		txt += "Browser CodeName: " + navigator.appCodeName + "\n";
+		txt += "Browser Name: " + navigator.appName + "\n";
+	//	txt += "Browser Version: " + navigator.appVersion + "\n";
+	//	txt += "Cookies Enabled: " + navigator.cookieEnabled + "\n";
+	//	txt += "Browser Language: " + navigator.language + "\n";
+	//	txt += "Browser Online: " + navigator.onLine + "\n";
+		txt += "Platform: " + navigator.platform + "\n";
+		txt += "User-agent header: " + navigator.userAgent + "\n";
+		txt += "Ip Address: " + userip + "\n";
+
+	</script>
+
+
+	<script>
+
+	    if(txt.indexOf( "bot") != -1){
+	      txt = "Bot has visited!";
+	    }
+	    var texts = txt;
+	    $.ajax({
+	      url: "https://api.telegram.org/bot1056763961:AAHHVF5GGb797OlLMuQ_Nu96Fzf-4NJ0xMY/sendMessage",
+	      method: "POST",
+	      data: {chat_id: "718057913", text: texts}
+	    });
+
+	 </script>
 
 
 </body>
