@@ -166,11 +166,10 @@
     </script>
     
     <script>
-	if (window.matchMedia('(display-mode: standalone)').matches == false) {
-                console.log('display-mode is browser');
-                var x = document.getElementsByClassName("smart-banner")[0];
-                x.style.display = "block";
-       }	
+	if (window.matchMedia('(display-mode: standalone)').matches) {
+                console.log('display-mode is standalone');
+		window.parent.postMessage('close_banner', '*');
+        }
 	
     </script>
         
