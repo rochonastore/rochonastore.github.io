@@ -165,14 +165,7 @@
       //# sourceURL=pen.js      
     </script>
     
-    <script>
-	if (window.matchMedia('(display-mode: standalone)').matches) {
-                console.log('display-mode is standalone');
-		window.parent.postMessage('close_banner', '*');
-        }
-	
-    </script>
-        
+            
         <div class="container">
             <iframe style="border-width: 0px;" id="ifrm" allow="fullscreen" class="responsive-iframe" src="https://rochonastore.blogspot.com"></iframe>
             <script>
@@ -187,6 +180,13 @@
                     var ifrm = document.getElementById("ifrm");
                     ifrm.src = c;
                 }
+            </script>
+		
+	    <script>
+		if (window.matchMedia('(display-mode: standalone)').matches) {
+			console.log('display-mode is standalone');
+			document.getElementById('ifrm').contentWindow.postMessage('close_banner', '*');
+		}
             </script>
           </div>
     </body>
