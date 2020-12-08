@@ -4,7 +4,7 @@
     "name": "রচনা স্টোর অ্যাপ",
     "short_name": "রচনা স্টোর অ্যাপ",
     "scope": "/",
-    "display": "browser",
+    "display": "standalone",
     "start_url": "https://rochonastore.github.io/",
     "background_color": "#000000",
     "theme_color": "transparent",
