@@ -70,10 +70,10 @@ lsi: False
 username: rochonastore
 repo: rochonastore.github.io
 branch: master
-relative_source: ../offline_access/
-destination: ../offline_access/
+relative_source: ../rochonastore.github.io/offline_access/
+destination: ../rochonastore.github.io/offline_access-pages/
 production_url:  https://rochonastore.github.io/offline_access/
-source_url:  https://github.com/rochonastore/rochonastore.github.io/offline_access
+source_url:  https://github.com/rochonastore/rochonastore.github.io/offline_access/
 
 exclude:
   - assets/css
