@@ -68,10 +68,10 @@ feed:
 safe: False
 lsi: False
 username: rochonastore
-repo: rochonastore.github.io/
+repo: rochonastore.github.io
 branch: master
 relative_source: ../rochonastore.github.io/
-destination: ../rochonastore.github.io/test_pages
+destination: ../rochonastore.github.io/test_pages/
 production_url:  https://rochonastore.github.io/
 source_url:  https://github.com/rochonastore/rochonastore.github.io/
 
