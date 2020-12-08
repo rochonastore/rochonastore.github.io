@@ -68,7 +68,7 @@ feed:
 safe: False
 lsi: False
 username: rochonastore
-repo: rochonastore.github.io
+repo: rochonastore.github.io/offline_access
 branch: master
 relative_source: ../rochonastore.github.io/offline_access/
 destination: ../rochonastore.github.io/offline_access/offline_access-pages/
