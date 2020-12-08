@@ -5,6 +5,12 @@
     <link rel="shortcut icon" href="{{ site.baseurl }}{{ site.favicon }}" type="image/png" />
     <link rel="canonical" href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url | remove_first: '/' }}" />
     <link rel="manifest" href="{{ site.baseurl }}manifest.json">
+    <script type="module">
+        import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+        const el = document.createElement('pwa-update');
+        document.body.appendChild(el);
+    </script>    
 
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
