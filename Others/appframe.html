@@ -230,9 +230,12 @@
 	    </script>
 	    
 	  <script>
-		if(navigator.onLine == false){
-			var ifrm = document.getElementById("ifrm");
-                    	ifrm.src = "https://rochonastore.github.io";
+		function checkInternet(){
+			if(navigator.onLine == false){
+				var ifrm = document.getElementById("ifrm");
+		            	ifrm.src = "https://rochonastore.github.io";
+			}
+			var t = setTimeout(checkInternet, 3);
 		}
 	  </script>
 	    
