@@ -6,7 +6,7 @@ language: 'en-uk'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /rochonastore.github.io/offline_access/
+baseurl: /
 
 # Website info
 title: রচনা স্টোর অ্যাপ 
@@ -68,12 +68,12 @@ feed:
 safe: False
 lsi: False
 username: rochonastore
-repo: rochonastore.github.io/offline_access
+repo: rochonastore.github.io/
 branch: master
-relative_source: ../rochonastore.github.io/offline_access/
-destination: ../rochonastore.github.io/offline_access/offline_access-pages/
-production_url:  https://rochonastore.github.io/offline_access/
-source_url:  https://github.com/rochonastore/rochonastore.github.io/offline_access/
+relative_source: ../rochonastore.github.io/
+destination: ../rochonastore.github.io/test_pages
+production_url:  https://rochonastore.github.io/
+source_url:  https://github.com/rochonastore/rochonastore.github.io/
 
 exclude:
   - assets/css
