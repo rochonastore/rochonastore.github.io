@@ -71,9 +71,9 @@ username: rochonastore
 repo: rochonastore.github.io
 branch: master
 relative_source: ../offline_access/
-destination: ../jasper2-pages/
-production_url:  https://jekyller.github.io/jasper2/
-source_url:  https://github.com/rochonastore/rochonastore.github.io/
+destination: ../offline_access/
+production_url:  https://rochonastore.github.io/offline_access/
+source_url:  https://github.com/rochonastore/rochonastore.github.io/offline_access
 
 exclude:
   - assets/css
@@ -91,6 +91,5 @@ exclude:
   - README.md
   - script.py
   - changelog.md
-  - 404.html
   - "*.Rmd"
   - .git*
