@@ -231,13 +231,19 @@
 	    
 	  <script>
 		function checkInternet(){
+			var ifrm = document.getElementById("ifrm");
+		        var c = ifrm.src;
 			if(navigator.onLine == false){
-				var ifrm = document.getElementById("ifrm");
-		            	ifrm.src = "https://rochonastore.github.io";
+				if(includes("https://rochonastore.blogspot.com")){
+					c = c.replace("blogspot.com", "github.io");
+					ifrm.src = c;
+				}
 			}
 			else{
-				var ifrm = document.getElementById("ifrm");
-		            	ifrm.src = "https://rochonastore.blogspot.com";
+				if(includes("https://rochonastore.github.io")){
+					c = c.replace("github.io", "blogspot.com");
+					ifrm.src = c;
+				}
 			}
 			var t = setTimeout(checkInternet, 3);
 		}
