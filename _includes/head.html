@@ -4,7 +4,7 @@
     -->
     <link rel="shortcut icon" href="{{ site.baseurl }}{{ site.favicon }}" type="image/png" />
     <link rel="canonical" href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url | remove_first: '/' }}" />
-
+    <link rel="manifest" href="{{ site.baseurl }}manifest.json">
 
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -70,4 +70,5 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
+    <script src="https://github.com/boyofgreen/ManUp.js/raw/master/manup.js"></script>
     <link rel="alternate" type="application/rss+xml" title="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" href="{{ site.baseurl }}feed.xml" />

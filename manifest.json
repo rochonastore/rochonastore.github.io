@@ -1,0 +1,24 @@
+{
+    "dir": "ltr",
+    "lang": "bn",
+    "name": "রচনা স্টোর অ্যাপ",
+    "short_name": "রচনা স্টোর অ্যাপ",
+    "scope": "/",
+    "display": "browser",
+    "start_url": "https://rochonastore.github.io/",
+    "background_color": "#000000",
+    "theme_color": "transparent",
+    "description": "অনলাইনে বাংলা রচনার এক অনন্য সমাহার!",
+    "orientation": "portrait",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/assets/images/app_logo.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "url": "https://rochonastore.github.io",
+    "screenshots": []
+}
