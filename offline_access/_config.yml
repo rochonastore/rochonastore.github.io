@@ -91,5 +91,6 @@ exclude:
   - README.md
   - script.py
   - changelog.md
+  - 404.html
   - "*.Rmd"
   - .git*
