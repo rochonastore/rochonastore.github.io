@@ -3,7 +3,7 @@
     "lang": "bn",
     "name": "রচনা স্টোর অ্যাপ",
     "short_name": "রচনা স্টোর অ্যাপ",
-    "scope": "/",
+    "scope": "https://rochonastore.github.io/",
     "display": "standalone",
     "start_url": "https://rochonastore.github.io/",
     "background_color": "#000000",
