@@ -1,4 +1,4 @@
-rochonastore.blogspot.comrochonastore.blogspot.comrochonastore.blogspot.comrochonastore.blogspot.comrochonastore.blogspot.comfunction myFunction(){
+rochonastore.blogspot.comrochonastore.blogspot.comrochonastore.blogspot.comrochonastore.blogspot.comrochonastore.blogspot.comrochonastore.blogspot.comrochonastore.blogspot.comrochonastore.blogspot.comrochonastore.blogspot.comrochonastore.blogspot.comfunction myFunction(){
 url = window.location.href;
 
 if(url.indexOf("rochonastore.com/2018/12/banglar-krishok.html") != -1){
