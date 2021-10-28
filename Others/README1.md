@@ -1,4 +1,4 @@
-# জরুরি নোটিস
+rochonastore.blogspot.comrochonastore.blogspot.com# জরুরি নোটিস
 
 আর্থিক সমস্যা ও ওয়েবসাইট থেকে বর্তমানে কোন আয় না থাকায় আমরা আর রচনা স্টোরের ডোমেইনটি রিনিউ করছি না। ফলে এখন থেকে আপনাদেরকে [rochonastore.com](https://rochonastore.com) এর বদলে [rochonastore.blogspot.com](https://rochonastore.blogspot.com) ওয়েবসাইটে প্রবেশ করতে হবে।
 <br>
